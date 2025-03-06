@@ -1,0 +1,6 @@
+biopython
+pybedtools
+igv-jupyter
+igv-notebook
+vcfpy
+malariagen_data
