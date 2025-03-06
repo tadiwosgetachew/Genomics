@@ -1,10 +1,10 @@
 # Malaria Drug Resistance Variant Annotation
 
-This project focuses on **Plasmodium falciparum**, the deadly parasite responsible for causing malaria. It analyzes malaria drug resistance using variant annotation techniques. The project utilizes tools like **biopython**, **VCFpy**, **snpEff**, and others to pull data, align sequences, call variants, and visualize results. The primary goal is to map and annotate variants related to resistance in transporters such as **CRT** and **MDR1**, focusing on malaria drug resistance.
+This project focuses on Plasmodium falciparum, the parasite responsible for malaria, a disease that remains widespread globally. As drug-resistant strains become increasingly prevalent, understanding the genetic markers of resistance is crucial. This project aims to analyze malaria drug resistance by identifying and annotating key genetic variants, particularly in transporters like CRT and MDR1, which are known to contribute to resistance against antimalarial drugs.
 
 ## Project Overview
 
-This project aims to develop a bioinformatics pipeline for variant calling and annotation, providing key insights into Plasmodium falciparum (Pf) drug resistance. By studying known genetic markers associated with drug resistance, the pipeline helps uncover critical mutations that contribute to resistance, advancing our understanding of the genetic factors involved in malaria treatment."
+This project aims to develop a bioinformatics pipeline for variant calling and annotation, providing key insights into Plasmodium falciparum (Pf) drug resistance. By studying known genetic markers associated with drug resistance, the pipeline helps uncover critical mutations that contribute to resistance, advancing our understanding of the genetic factors involved in malaria treatment.
 
 ### Key Steps:
 
@@ -73,7 +73,7 @@ These dependencies can be installed on your system using `apt-get`:
 
 ### Future Directions
 
-The project can be expanded by integrating data from **MalariaGEN**, which provides real-world, annotated samples with known resistance profiles(acess to this data is demonstrated in the notebook). This would help identify key mutations linked to drug resistance, improve variant prediction models, and validate the findings with actual clinical data.
+The project can be expanded by integrating data from **MalariaGEN**, which provides real-world, annotated samples with known clinical  resistance profiles(acess to this data is demonstrated in the notebook). This would help identify key mutations linked to drug resistance, improve variant prediction models, and validate the findings with actual clinical data.
 
 ### Contributions
 
