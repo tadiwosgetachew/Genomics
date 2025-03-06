@@ -1,6 +1,6 @@
 # Malaria Drug Resistance Variant Annotation
 
-This project focuses on Plasmodium falciparum, the parasite responsible for malaria, a disease that remains widespread globally. As drug-resistant strains become increasingly prevalent, understanding the genetic markers of resistance is crucial. This project aims to analyze malaria drug resistance by identifying and annotating key genetic variants, particularly in transporters like CRT and MDR1, which are known to contribute to resistance against antimalarial drugs.
+This project focuses on Plasmodium falciparum, the parasite responsible for deadly malaria, a disease that remains widespread globally. As drug-resistant strains become increasingly prevalent, understanding the genetic markers of resistance is crucial. This project aims to analyze malaria drug resistance by identifying and annotating key genetic variants, particularly in transporters like CRT and MDR1, which are known to contribute to resistance against antimalarial drugs.
 
 ## Project Overview
 
