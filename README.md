@@ -71,28 +71,28 @@ These dependencies can be installed on your system using `apt-get`:
 
 ```
 
-### 3. Data Retrieval and Alignment
-
-- **Pull Data from NCBI**: Retrieve **CRT** and **MDR1** sequences.
-- **Align Sequences**: Use **BWA** to align sequences with the **Pf3D7** reference genome.
-
-### 4. Variant Calling and Annotation
-
-- Use **samtools** and **bcftools** for variant calling.
-- Annotate variants using **snpEff** with a **Pf3D7** database.
-
-### 5. Visualization
-
-- Visualize the **VCF** files and alignment maps in **IGV** for in-depth analysis.
-
-
 ### Future Directions
 
-The project can be expanded by integrating data from **MalariaGEN**, which provides real-world, annotated samples with known resistance profiles(acess to this data isdemonstrated in the notebook). This would help identify key mutations linked to drug resistance, improve variant prediction models, and validate the findings with actual clinical data.
+The project can be expanded by integrating data from **MalariaGEN**, which provides real-world, annotated samples with known resistance profiles(acess to this data is demonstrated in the notebook). This would help identify key mutations linked to drug resistance, improve variant prediction models, and validate the findings with actual clinical data.
 
 ### Contributions
 
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to submit a pull request or open an issue.
+
+## Acknowledgments
+
+We would like to express our gratitude to the following:
+
+- **MalariaGEN**: For providing access to a comprehensive database of malaria drug resistance data.
+- **NCBI**: For providing access to high-quality genomic data and tools like `snpEff`, `samtools`, and `bcftools` that were critical for variant calling and annotation.
+- **IGV**: For providing a robust platform to visualize sequencing data and variant calls.
+- **The Open Source Community**: For creating and maintaining the tools and libraries (such as `Biopython`, `pybedtools`, `vcfpy`, and `tabix`) that were integral to building this pipeline.
+- **The Malaria Research Community**: For their ongoing efforts in studying malaria and drug resistance, providing valuable data and insights for the development of anti-malarial strategies.
+
+
+
+
+
 
 
 
